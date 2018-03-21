@@ -1,0 +1,33 @@
+.example-card {
+height: 100%;
+  width: 100%;
+}
+
+
+div {
+  padding: 8px !important;
+  margin:0px;
+  overflow:hidden
+}
+
+.caption{
+  color: blue;
+}
+
+.links > ul >li {
+  color: blue;
+}
+
+.img-parent {
+  padding:10px
+}
+
+
+
+.first-row{
+  height : 450px !important;
+}
+
+.second-row{
+  height : 300px !important;
+}

@@ -1,0 +1,104 @@
+<div class="col">
+
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="box first-row">
+
+        <h1>INTERNATIONAL REAL ESTATE</h1>
+        <h2 class="caption"><p>House Hunting in ...<br> London</p></h2>
+        <div class="row between-xs">
+          <div class="col-xs-6">
+            <div class="box">
+              <p>
+                House prices in some of London’s wealthiest boroughs plummeted as much as 14.9% in the year to January, dragging down the average price in the capital—and in England—according to a report Monday by re  Read more
+              </p>
+              <p>Unsurprisingly, London is the most expensive place in Britain for first-time buyers looking to get on the property ladder, according to a report Wednesday from U.K. property website Zoopla. But the ca  Read more</p>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="box img-parent">
+              <img
+                src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?w=400&h=400&auto=compress&cs=tinysrgb"
+                alt="Photo of house">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-6">
+      <div class="box first-row">
+
+        <h1>Find Properties</h1>
+
+        <div class="row between-xs">
+
+          <div class="col-xs">
+            <div class="box links">
+              <ul>
+                <li *ngFor="let link of links">
+                  <a ng-href="https://github.com/angular/angular-cli">{{link}}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!--second row begins-->
+  <mat-divider></mat-divider>
+
+  <div class="row">
+    <div class="col-xs-6 middle-xs center-xs">
+      <div class="box second-row img-parent">
+
+
+        <img style="width: 650px; height: 300px;"
+          src="https://www.fortunebuilders.com/wp-content/uploads/2016/08/newyork-infographic.jpg"
+          alt="Photo of price estimate">
+
+
+      </div>
+
+    </div>
+
+
+    <div class="col-xs-6">
+      <div class="box second-row">
+
+        <div class="row between-xs">
+
+          <div class="col-xs">
+            <div class="box links">
+              <ul>
+
+                  <a *ngFor="let listing of listings" href="/">{{listing}} <br></a>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!--third row begins-->
+  <mat-divider></mat-divider>
+
+  <div class="row third-row">
+    <div class="col-xs">
+      <div class="box middle-xs center-xs">
+        <a href="https://github.com/angular/angular-cli"> Place a classified ad </a>
+      </div>
+    </div>
+  </div>
+</div>
